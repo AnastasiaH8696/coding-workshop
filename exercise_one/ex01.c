@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <assert.h> 
 
-
+//This function is prints a given array
 void printArr(int* arr, int size);
 
+//This program is taking existing array and creating a new one wihtout duplicates
 int main() {
     int duplicatesArr[] = { 50, 60, 60, 72, 81, 81, 81, 81, 93, 93 }, * nonDupArr,
         newSize = 1, i = 0, nonDupIndex = 0, len = 10;
