@@ -31,10 +31,11 @@ int main() {
         }
     }
 
-    printf("The duplicated array: /n");
+    printf("The duplicated array: \n");
     printArr(duplicatesArr, len);
-    printf("The non-duplicated array: /n");
-    printArr(nonDupArr, nonDupIndex);
+    printf("The non-duplicated array: \n");
+    printArr(nonDupArr, newSize);
+    free(nonDupArr);
 
 }
 
