@@ -45,6 +45,9 @@ int main() {
     printf("The even array: \n");
     printArr(evenArr, evenSize);
 
+    free(oddArr);
+    free(evenArr);
+
 }
 
 void printArr(int* arr, int size)
